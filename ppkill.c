@@ -45,7 +45,7 @@ void usage(void)
     {
         fgets(buf, PATH_MAX, fp);
         chomp(buf);
-        printf("usage:\n\t%s [process_name]", buf);
+        printf("usage:\n\t%s [process_name]\n", buf);
         fclose(fp);
     }
 }
